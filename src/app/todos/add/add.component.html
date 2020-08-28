@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-12 my-4">
+        <h3>Add New Employee</h3> <br> <hr>
+        <form #myForm="ngForm"  (ngSubmit)="onSubmit(myForm)" >
+            <input type="text" class="form-control " placeholder="id"  ngModel  name="id"> <br>
+            <input type="text" class="form-control " placeholder="Name"  ngModel name="name"> <br>
+            <input type="text" class="form-control " placeholder="Surname" ngModel  name="surname"> <br>
+            <input type="text" class="form-control " placeholder="Email"  ngModel name="email"> <br>
+            <input type="text" class="form-control " placeholder="Phone" ngModel  name="phone"> <br>
+            <button class="btn btn-primary btn-block" >Add new</button>
+        </form>
+    </div>
+</div>

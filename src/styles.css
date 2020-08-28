@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: blue;
+    font-size: 30px;
+    padding-left: 30px;
+}
